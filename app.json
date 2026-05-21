@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Simline",
+    "slug": "simline",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/simlineLogo.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/images/simlineLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "bundleIdentifier": "com.liamc9.simline",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3bc7f6e6-a2f4-4ac7-befc-b739e38e63c9"
+      }
+    },
+    "owner": "liamc9"
+  }
+}
